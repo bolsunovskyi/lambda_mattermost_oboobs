@@ -68,7 +68,7 @@ func Handler(_ Request) (interface{}, error) {
 
 	return Response{
 		ResponseType: "in_channel",
-		Text:         "![boobs](" + boobLink + ")",
+		Text:         "![boobs](" + boobLink + ")\n#boobs",
 	}, nil
 }
 
